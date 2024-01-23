@@ -49,9 +49,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88beef27c76aeb041864ac02191cd40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comboOne: {fileID: 7165040790285431246, guid: 770baff18fc99a246b07a112bf4c92f8,
-    type: 3}
-  spawnInterval: 2
+  comboPrefabs:
+  - {fileID: 7165040790285431246, guid: 770baff18fc99a246b07a112bf4c92f8, type: 3}
+  spawnInterval: 1
 --- !u!50 &7534578756827071840
 Rigidbody2D:
   serializedVersion: 4

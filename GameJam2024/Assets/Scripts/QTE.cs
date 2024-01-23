@@ -28,13 +28,13 @@ public class QTE : MonoBehaviour
     {
         if (collision.gameObject.tag == "DetectZone1") // tag note
         {
-            Debug.Log("Detected Zone 1 true !");
+            //Debug.Log("Detected Zone 1 true !");
             GameManager.healthJ1-=1;
         }
 
         if (collision.gameObject.tag == "DetectZone2") // tag note
         {
-            Debug.Log("Detected Zone 2 true !");
+            //Debug.Log("Detected Zone 2 true !");
             GameManager.healthJ2 -= 1;
         }
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144175222210105329}
   m_Layer: 5
-  m_Name: Combo_1
+  m_Name: Combo_1_Old
   m_TagString: QTE_Game
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,12 +130,12 @@ PrefabInstance:
     - target: {fileID: 6321984303354789673, guid: b2f0d5f19ae851843a4c4357467b14bb,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 151
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: b2f0d5f19ae851843a4c4357467b14bb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1
+      value: 136.6
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: b2f0d5f19ae851843a4c4357467b14bb,
         type: 3}
@@ -254,12 +254,12 @@ PrefabInstance:
     - target: {fileID: 6321984303354789673, guid: 11cb4548990efbf44a4efd8c74bbc70e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 289
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: 11cb4548990efbf44a4efd8c74bbc70e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1
+      value: 269.1
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: 11cb4548990efbf44a4efd8c74bbc70e,
         type: 3}
@@ -378,12 +378,12 @@ PrefabInstance:
     - target: {fileID: 6321984303354789673, guid: c242ece2c8126f646962ec2a74806c48,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 431
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: c242ece2c8126f646962ec2a74806c48,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1
+      value: 414.1
       objectReference: {fileID: 0}
     - target: {fileID: 6321984303354789673, guid: c242ece2c8126f646962ec2a74806c48,
         type: 3}
