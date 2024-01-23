@@ -6,6 +6,10 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
+    // GAME
+    public bool isGameOver = false;
+    public GameObject gameOverCanvas;
+    public NoteSpawner gameSpawner;
 
     // SCORE
     public TextMeshProUGUI J1_scoreText;
@@ -24,6 +28,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Disable the game over canvas at the beginning
+        if (gameOverCanvas != null)
+        {
+            gameOverCanvas.SetActive(false);
+        }
+
+
         // SCORE MANAGER J1
         J1_score = 0;
         UpdateScore(J1_score, "J1");
@@ -99,6 +110,33 @@ public class GameManager : MonoBehaviour
 
         }
 
+        if (healthJ1 == 0 || healthJ2 == 0)
+        {
+            GameOver();
+            StopSpawning(); // Stop the spawner when the game is over
+        }
+
+    }
+
+
+
+    public void GameOver()
+    {
+        // Set the game over state
+        isGameOver = true;
+
+        // Display the game over canvas
+        if (gameOverCanvas != null)
+        {
+            gameOverCanvas.SetActive(true);
+        }
+    }
+    void StopSpawning()
+    {
+        if (gameSpawner != null)
+        {
+            gameSpawner.StopSpawning();
+        }
     }
 
     public void UpdateScore(int scoreToAdd, string player)
