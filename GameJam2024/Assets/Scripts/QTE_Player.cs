@@ -30,9 +30,11 @@ public class QTE_Player : MonoBehaviour
 
 
         // PLAYER INPUT AND COLLIDER
-        if ((Input.GetButtonDown("QTE_A_P" + PlayerNum) ||
-        Input.GetButtonDown("QTE_B_P" + PlayerNum)) &&
-        collidedObject != null)
+        if ((Input.GetButtonDown("QTE_A_P" + PlayerNum)) ||
+        (Input.GetButtonDown("QTE_B_P" + PlayerNum)) ||
+        (Input.GetButtonDown("QTE_X_P" + PlayerNum)) ||
+        (Input.GetButtonDown("QTE_Y_P" + PlayerNum)) &&
+        (collidedObject != null))
 
         {
             CheckButtonInput();
@@ -82,6 +84,18 @@ public class QTE_Player : MonoBehaviour
         else if (Input.GetButtonDown("QTE_B_P" + PlayerNum))
         {
             PlayerInput = "B";
+            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            Debug.Log("------------------------------------------------");
+        }
+        else if (Input.GetButtonDown("QTE_X_P" + PlayerNum))
+        {
+            PlayerInput = "X";
+            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            Debug.Log("------------------------------------------------");
+        }
+        else if (Input.GetButtonDown("QTE_Y_P" + PlayerNum))
+        {
+            PlayerInput = "Y";
             Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
             Debug.Log("------------------------------------------------");
         }
