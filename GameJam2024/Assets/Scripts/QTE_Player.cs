@@ -5,7 +5,6 @@ using UnityEngine;
 public class QTE_Player : MonoBehaviour
 {
     private GameObject collidedObject; // Store the collided object
-    private GameObject damage; // Store damage
     private string PlayerInput; // Get the player's button ABXY
 
     public int PlayerNum; // Get the player 1 or 2
@@ -15,6 +14,7 @@ public class QTE_Player : MonoBehaviour
 
     public AudioSource MissedAudio;
     public AudioSource HitAudio;
+    public AudioSource WrongAudio;
 
     void Start()
     {
@@ -26,19 +26,23 @@ public class QTE_Player : MonoBehaviour
     void Update()
     {
 
-        
+
 
         // PLAYER INPUT VERIFY
-        CheckButtonInput();
+        //CheckButtonInput();
+
+        // Play MissedAudio every time a button is pressed and there is no collision
+        AudioFailSound();
+        
 
 
 
         // PLAYER INPUT AND COLLIDER
-        if ((Input.GetButtonDown("QTE_A_P" + PlayerNum)) ||
-        (Input.GetButtonDown("QTE_B_P" + PlayerNum)) ||
-        (Input.GetButtonDown("QTE_X_P" + PlayerNum)) ||
-        (Input.GetButtonDown("QTE_Y_P" + PlayerNum)) &&
-        (collidedObject != null))
+        if (((Input.GetButtonDown("QTE_A_P" + PlayerNum)) ||
+         (Input.GetButtonDown("QTE_B_P" + PlayerNum)) ||
+         (Input.GetButtonDown("QTE_X_P" + PlayerNum)) ||
+         (Input.GetButtonDown("QTE_Y_P" + PlayerNum))) &&
+         (collidedObject != null))
 
         {
             CheckButtonInput();
@@ -59,20 +63,22 @@ public class QTE_Player : MonoBehaviour
 
                     Debug.Log("The right input has been made: deleting QTE_Game object");
                     Debug.Log("------------------------------------------------");
+
+                    // Reset the flag when a correct input is made
                 }
                 else
                 {
                     Debug.Log("Wrong input");
-                    
                     Debug.Log("------------------------------------------------");
+                    WrongAudio.Play();
                 }
 
             }
-
-            MissedAudio.Play();
-
             
         }
+
+        
+
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -81,7 +87,6 @@ public class QTE_Player : MonoBehaviour
         {
             //Debug.Log("OnCollisionEnter2D");
             collidedObject = collision.gameObject; // Store the collided object
-            damage = collision.gameObject; // Store the damage
         }
 
     }
@@ -114,5 +119,18 @@ public class QTE_Player : MonoBehaviour
             Debug.Log("------------------------------------------------");
         }
     }
+
+    void AudioFailSound()
+    {
+        // Check individual button presses and play sound
+        if ((Input.GetButtonDown("QTE_A_P" + PlayerNum)) ||
+            (Input.GetButtonDown("QTE_B_P" + PlayerNum)) ||
+            (Input.GetButtonDown("QTE_X_P" + PlayerNum)) ||
+            (Input.GetButtonDown("QTE_Y_P" + PlayerNum)))
+        {
+            MissedAudio.Play();
+        }
+    }
+
 }
 

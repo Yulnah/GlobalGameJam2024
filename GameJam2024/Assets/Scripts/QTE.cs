@@ -21,7 +21,7 @@ public class QTE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * Time.deltaTime * QTEspeed);
+        transform.Translate(Vector2.down * Time.deltaTime * QTEspeed);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
