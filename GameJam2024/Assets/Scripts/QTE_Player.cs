@@ -16,8 +16,6 @@ public class QTE_Player : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
-
-
     }
 
     // Update is called once per frame
@@ -28,17 +26,10 @@ public class QTE_Player : MonoBehaviour
 
         // PLAYER INPUT VERIFY
         CheckButtonInput();
-        //if (Input.GetButtonDown("QTE_" + PlayerInput + "_P" + PlayerNum)) 
-        //{
-        //   Debug.Log("Player "+ PlayerNum + " has pressed " + PlayerInput);
-        //   Debug.Log("------------------------------------------------");
-        //}
-
 
 
 
         // PLAYER INPUT AND COLLIDER
-        //if ((Input.GetButtonDown("QTE_" + PlayerInput + "_P" + PlayerNum) && collidedObject != null))
         if ((Input.GetButtonDown("QTE_A_P" + PlayerNum) ||
         Input.GetButtonDown("QTE_B_P" + PlayerNum)) &&
         collidedObject != null)
