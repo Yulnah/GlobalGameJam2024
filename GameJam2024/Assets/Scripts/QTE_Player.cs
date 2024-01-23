@@ -5,6 +5,7 @@ using UnityEngine;
 public class QTE_Player : MonoBehaviour
 {
     private GameObject collidedObject; // Store the collided object
+    private GameObject damage; // Store damage
     private string PlayerInput; // Get the player's button ABXY
 
     public int PlayerNum; // Get the player 1 or 2
@@ -13,19 +14,22 @@ public class QTE_Player : MonoBehaviour
     public GameManager gameManager; // Get score points
 
 
+
     void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-
+        
 
         // PLAYER INPUT VERIFY
         CheckButtonInput();
+
 
 
 
@@ -59,17 +63,23 @@ public class QTE_Player : MonoBehaviour
                     Debug.Log("Wrong input");
                     Debug.Log("------------------------------------------------");
                 }
+
+
+                
+
             }
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "QTE_Game")
+        if (collision.gameObject.tag == "QTE_Game") // tag note
         {
             //Debug.Log("OnCollisionEnter2D");
             collidedObject = collision.gameObject; // Store the collided object
+            damage = collision.gameObject; // Store the damage
         }
+
     }
 
     void CheckButtonInput()
