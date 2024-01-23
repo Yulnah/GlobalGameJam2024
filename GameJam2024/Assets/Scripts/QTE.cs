@@ -10,6 +10,8 @@ public class QTE : MonoBehaviour
 
     public GameManager gameManager; // Get health points
 
+
+
     // Start is called before the first frame update
     void Start()
     {

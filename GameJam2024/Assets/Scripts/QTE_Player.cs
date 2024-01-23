@@ -13,7 +13,8 @@ public class QTE_Player : MonoBehaviour
     QTE QTE_input;
     public GameManager gameManager; // Get score points
 
-
+    public AudioSource MissedAudio;
+    public AudioSource HitAudio;
 
     void Start()
     {
@@ -29,7 +30,6 @@ public class QTE_Player : MonoBehaviour
 
         // PLAYER INPUT VERIFY
         CheckButtonInput();
-
 
 
 
@@ -52,7 +52,9 @@ public class QTE_Player : MonoBehaviour
 
                 if (qteLetter == PlayerInput)
                 {
-                    Destroy(collidedObject); // Destroy the object with the QTE_Game tag
+                    HitAudio.Play();
+                    Destroy(collidedObject); // Destroy the object with the QTE_Game tag*
+                    
                     gameManager.UpdateScore(5, "J" + PlayerNum); // Gain score
 
                     Debug.Log("The right input has been made: deleting QTE_Game object");
@@ -61,13 +63,15 @@ public class QTE_Player : MonoBehaviour
                 else
                 {
                     Debug.Log("Wrong input");
+                    
                     Debug.Log("------------------------------------------------");
                 }
 
-
-                
-
             }
+
+            MissedAudio.Play();
+
+            
         }
     }
 
