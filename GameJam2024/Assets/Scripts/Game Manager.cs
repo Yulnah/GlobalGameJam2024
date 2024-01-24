@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public NoteSpawner gameSpawner;
 
+    public NoteSpawner spawnerJ1;
+    public NoteSpawner spawnerJ2;
+
     // SCORE
     public TextMeshProUGUI J1_scoreText;
     private int J1_score;
@@ -32,6 +35,8 @@ public class GameManager : MonoBehaviour
     public static int sliderBarJ1;
     public static int sliderBarJ2;
 
+    public QTE_Player playerJ1;
+    public QTE_Player playerJ2;
 
     // Start is called before the first frame update
     void Start()
@@ -76,36 +81,52 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (sliderBarJ1)
+        if (healthJ1 > 0)
         {
-            case 3:
-                sliderJ1.value = 3;
-                break;
-            case 2:
-                sliderJ1.value = 2;
-                break;
-            case 1:
-                sliderJ1.value = 1;
-                break;
-            case 0:
-                sliderJ1.value = 0;
-                break;
+            switch (sliderBarJ1)
+            {
+                case 3:
+                    sliderJ1.value = 3;
+                    break;
+                case 2:
+                    sliderJ1.value = 2;
+                    break;
+                case 1:
+                    sliderJ1.value = 1;
+                    break;
+                case 0:
+                    sliderJ1.value = 0;
+                    break;
+            }
+        }
+        else
+        {
+            sliderJ1.value = 0;
+
         }
 
-        switch (sliderBarJ2)
+        if (healthJ2 > 0)
         {
-            case 3:
-                sliderJ2.value = 3;
-                break;
-            case 2:
-                sliderJ2.value = 2;
-                break;
-            case 1:
-                sliderJ2.value = 1;
-                break;
-            case 0:
-                sliderJ2.value = 0;
-                break;
+            switch (sliderBarJ2)
+            {
+                case 3:
+                    sliderJ2.value = 3;
+                    break;
+                case 2:
+                    sliderJ2.value = 2;
+                    break;
+                case 1:
+                    sliderJ2.value = 1;
+                    break;
+                case 0:
+                    sliderJ2.value = 0;
+                    break;
+            }
+
+        } else
+        {
+            sliderJ2.value = 0;
+
         }
 
         switch (healthJ1)
@@ -158,9 +179,20 @@ public class GameManager : MonoBehaviour
 
         }
 
-       
+       if (healthJ1 == 0)
+        {
+            playerJ1.enabled = false;
+            spawnerJ1.StopSpawning();
+        }
 
-        if (healthJ1 == 0 && healthJ2 == 0)
+        if (healthJ2 == 0)
+        {
+            playerJ2.enabled = false;
+            spawnerJ2.StopSpawning();
+        }
+
+
+        if (healthJ1 <= 0 && healthJ2 <= 0 && !isGameOver)
         {
             GameOver();
             StopSpawning(); // Stop the spawner when the game is over

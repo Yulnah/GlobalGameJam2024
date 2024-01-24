@@ -7,7 +7,7 @@ using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCou
 public class QTE : MonoBehaviour
 {
 
-    public float QTEspeed;
+    public float BaseQTEspeed;
     public string QTE_letter;
 
     public GameManager gameManager; // Get health points
@@ -15,6 +15,7 @@ public class QTE : MonoBehaviour
     // SCALE
     private Vector3 targetScale = new Vector3(2f, 2f, 2f);
     private float scaleSpeed = 0.5f; // Adjust this value to control the scaling speed
+
 
 
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class QTE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * Time.deltaTime * QTEspeed);
+        transform.Translate(Vector2.down * Time.deltaTime * ( BaseQTEspeed ));
     }
 
     void OnCollisionEnter2D(Collision2D collision)

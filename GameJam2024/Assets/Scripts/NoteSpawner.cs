@@ -13,7 +13,8 @@ public class NoteSpawner : MonoBehaviour
 
     private bool isSpawning = true;
     public GameManager gameManager; // Get game state
-
+    private float currentSpeed;
+    public float acceleration;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +24,11 @@ public class NoteSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentSpeed += Time.deltaTime * acceleration;
 
     }
+
+
 
     private IEnumerator SpawnNoteRoutine(float spawnInterval)
     {
@@ -51,7 +55,10 @@ public class NoteSpawner : MonoBehaviour
 
         // Get the gameObject, create it at the position of spawner
         GameObject newNote = Instantiate(selectedCombo, transform.position, Quaternion.identity);
-
+        foreach (var note in newNote.GetComponentsInChildren<QTE>())
+        {
+            note.BaseQTEspeed += currentSpeed;
+        }
         // Store the original position
         Vector3 originalPosition = newNote.transform.position;
 
