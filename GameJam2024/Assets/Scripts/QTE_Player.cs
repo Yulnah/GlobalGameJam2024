@@ -19,7 +19,6 @@ public class QTE_Player : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
-
     }
 
     // Update is called once per frame
@@ -95,26 +94,26 @@ public class QTE_Player : MonoBehaviour
         if (Input.GetButtonDown("QTE_A_P" + PlayerNum))
         {
             PlayerInput = "A";
-            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
-            Debug.Log("------------------------------------------------");
+            //Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            //Debug.Log("------------------------------------------------");
         }
         else if (Input.GetButtonDown("QTE_B_P" + PlayerNum))
         {
             PlayerInput = "B";
-            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
-            Debug.Log("------------------------------------------------");
+            //Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            //Debug.Log("------------------------------------------------");
         }
         else if (Input.GetButtonDown("QTE_X_P" + PlayerNum))
         {
             PlayerInput = "X";
-            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
-            Debug.Log("------------------------------------------------");
+            //Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            //Debug.Log("------------------------------------------------");
         }
         else if (Input.GetButtonDown("QTE_Y_P" + PlayerNum))
         {
             PlayerInput = "Y";
-            Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
-            Debug.Log("------------------------------------------------");
+            //Debug.Log("Player " + PlayerNum + " has pressed" + PlayerInput);
+            //Debug.Log("------------------------------------------------");
         }
     }
 

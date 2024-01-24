@@ -162,8 +162,8 @@ public class GameManager : MonoBehaviour
 
         if (healthJ1 == 0 && healthJ2 == 0)
         {
-            //GameOver();
-            //StopSpawning(); // Stop the spawner when the game is over
+            GameOver();
+            StopSpawning(); // Stop the spawner when the game is over
         }
 
     }

@@ -62,7 +62,7 @@ public class NoteSpawner : MonoBehaviour
         newNote.transform.position = originalPosition;
 
 
-        Debug.Log("Spawning " + selectedCombo + " at " + Time.time);
+        //Debug.Log("Spawning " + selectedCombo + " at " + Time.time);
     }
 
     public void StopSpawning()

@@ -10,6 +10,8 @@ TagManager:
   - DetectZone1
   - DetectZone2
   - DetectScale
+  - Spawner1
+  - Spawner2
   layers:
   - Default
   - TransparentFX
