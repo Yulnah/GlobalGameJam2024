@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     // GAME
-
     public bool isGameOver = false;
     public GameObject gameOverCanvas;
     public NoteSpawner gameSpawner;
@@ -25,6 +24,11 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI J2_scoreText;
     private int J2_score;
+
+    // WINNER LOSER
+    public TextMeshProUGUI WinnerPlayer;
+    public TextMeshProUGUI WinnerScore;
+    public TextMeshProUGUI LoserPlayer;
 
     // HEALTH
     public GameObject heartJ1_0, heartJ1_1, heartJ1_2;
@@ -223,6 +227,27 @@ public class GameManager : MonoBehaviour
         // Display the game over canvas
         if (gameOverCanvas != null)
         {
+            if (J1_score>J2_score) 
+            {
+                WinnerPlayer.text = "Player 1 !";
+                WinnerScore.text = "Score: " + J1_score;
+
+                LoserPlayer.text = "Player 2 with " + J2_score;
+
+            } else if(J2_score>J1_score)
+            {
+                WinnerPlayer.text = "Player 2 !";
+                WinnerScore.text = "Score: " + J2_score;
+
+                LoserPlayer.text = "Player 1 with " + J1_score;
+            }
+            else 
+            {
+                WinnerPlayer.text = "Both players !";
+                WinnerScore.text = "Score: " + J1_score;
+            }
+
+            
             gameOverCanvas.SetActive(true);
         }
     }
