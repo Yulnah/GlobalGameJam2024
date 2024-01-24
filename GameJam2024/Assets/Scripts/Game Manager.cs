@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
@@ -9,6 +10,7 @@ using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCou
 public class GameManager : MonoBehaviour
 {
     // GAME
+
     public bool isGameOver = false;
     public GameObject gameOverCanvas;
     public NoteSpawner gameSpawner;
@@ -234,8 +236,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   
-
     public void UpdateScore(int scoreToAdd, string player)
     {
         if (player == "J1")
@@ -249,6 +249,7 @@ public class GameManager : MonoBehaviour
             J2_scoreText.text = "Score J2: " + J2_score;
         }
     }
+
 
 
 }
