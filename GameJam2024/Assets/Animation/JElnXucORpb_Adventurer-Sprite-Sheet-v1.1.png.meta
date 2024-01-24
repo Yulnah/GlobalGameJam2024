@@ -1,0 +1,1623 @@
+fileFormatVersion: 2
+guid: f087da4f6f899664283243a9b570db4d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e2738779422b4f86d560364c5eb7b
+      internalID: -53976686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e4c7d31b072d2479b5c8edf774e50b
+      internalID: -845172399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6158c7ef53f91e41a1a4cb12f440c1a
+      internalID: -962638038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d617ff416f37f7c4984956f823aac3e1
+      internalID: -306364032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d394ff0a489e40a661af07ad892d1
+      internalID: 56282237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f70f4df49d2f045ab6de87924a3a95
+      internalID: 2048600579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ed10a32bfd10243a461226c2171515
+      internalID: 604320998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a82180c987cec34184d0a3b72c7d6e6
+      internalID: -1366581761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b69284e56520e41a4a1cbcddc16353
+      internalID: -685874316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8581193a97c674dbd1d80ec313f73d
+      internalID: -1329291586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0288ebadec7f948a745efc467b0d1e
+      internalID: -913275376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd99a812e8373b743a8bd463b65c6298
+      internalID: -96629341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5386259f828b9ae42893fd5d9f8ce34c
+      internalID: 506674146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ef3b59e289604438516a26cd813ad9
+      internalID: -378334550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300624f00ee79e54580aa98582f4ddd4
+      internalID: -1649337810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dd96a64ca6e09448f71d34fdd745ba
+      internalID: -954871179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a65000295426e43a6295e20f4f481d
+      internalID: 1910996952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f1047415fa5d647a00ee45d071e25f
+      internalID: 889175059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6df62e63602a54489f7dadbe6b52c07
+      internalID: 908717020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f67daadf82be874397bc49b0a1b1ebb
+      internalID: 251818486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc431dff0ae150a44ba4db2e790efb3d
+      internalID: 2104051855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f27494a3e78684182b7bdbcc61e518
+      internalID: -1964912176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3eeb693203758499034626d417f8c7
+      internalID: -1672888290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67335ee398b1b704dae354206963f791
+      internalID: -1443498888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046d99eecf8fe249a2d438ffa324f24
+      internalID: 1883948121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749105a0dca0b846b1f1c0c82e7537f
+      internalID: 732304307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991a21720f33b0d4bb987e0a734cee52
+      internalID: -58087499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ba1ea9b62d78f4bbcb2b7b66dd8705
+      internalID: -1191332547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162941dce5db7854987d8370f58eb9a1
+      internalID: -312885159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81768de4f27c8042840eca0c8426da3
+      internalID: 624279540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b3394a304be6b40aaa3512dd08c2f8
+      internalID: -2145944316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b65f3356059deb4580d309e6e351819
+      internalID: 894731861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0448eef57244b874284584fbfeb34e20
+      internalID: 1374964106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a0fa7e926769e4998ae53a46779a4c
+      internalID: -1396821767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afbc527863f96a4e8e283c2285d121d
+      internalID: 1224280980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e30b2fbcf693149b5297053dd9db2f
+      internalID: -626548914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f858b7fcc2fdfc140b00a07152a49c2d
+      internalID: 171317842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d06ca08d2e10b4cb6c40b84f59afeb
+      internalID: 639068230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66421a007f4b9dc438794ea649ba0edf
+      internalID: 1567299034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe0d4ad94df4644da7b818e9719501f
+      internalID: 1797115859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e44c8f6187264a4c8a21d9357154953
+      internalID: -1214808763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed038c39a48127a42ae0d2258d3ae8e7
+      internalID: 2081144830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d93f746530734e90882510d63d524
+      internalID: 319221271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bb30616b0bc554d82ec28dd347d5e2
+      internalID: -1314703448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58b883d33d8a884091c5f86a8974c97
+      internalID: 680862048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec932b8d4c3a7b04bb367de2dad977be
+      internalID: 1130738640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50150d0d95ba1ae408807be115eda6c4
+      internalID: 1588107913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8508bb1349eb9824194ce4bce3c88fd4
+      internalID: 2076459063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5fc69688f06194b97fc4d488b902d4
+      internalID: -689717841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e747e275269f5d74bae4b4390ce713c8
+      internalID: 513601107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696a336eaef10034a9f38e85ba72734d
+      internalID: 1168312781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c91ae9a19f6fd41a2bf45c2a2593c9
+      internalID: -119841826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c38294263384a41ae0bcfaba2fdfe2
+      internalID: -1611110254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d06e27951845044f809de1738c5b211
+      internalID: 1313931452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a07fa27552dc947b80e338fe9d1e88
+      internalID: 776164641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec903133e5d4af409163ba7e3f1ec4d
+      internalID: 1675734867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba00a9126111e45b10b6636e906da0
+      internalID: 1069998643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a68cff406be215469cfe78ab3966ad2
+      internalID: -1397856003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e1c33e5f0eb14ab71d4d50b3fa2f1
+      internalID: 1206520036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d064a7940a5aaf4aa8d5756f6b1c4ff
+      internalID: -1044157414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5726b3042d3621846bc6578620de08ce
+      internalID: -949961153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da758a8ab6d59b459da705064050e30
+      internalID: 527056336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286322aede09f6b44886855181a8c8bf
+      internalID: -649417637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df35590867173c940be0cf7fe7d22fcb
+      internalID: -1437999671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512c0bb99c94739418e5f7c4bd477079
+      internalID: -1663091714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201aa8cc011c305438fba2af4f6d7aa9
+      internalID: -1306128775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13716c4619be847aed5f59933a224b
+      internalID: 1029315546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f73decfb1b63c43b96e918ff2ff42d
+      internalID: -1282122951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a9a819ed4bfe76145ad47b2178ea5710
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_0: -53976686
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_1: -845172399
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_10: -913275376
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_11: -96629341
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_12: 506674146
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_13: -378334550
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_14: -1649337810
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_15: -954871179
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_16: 1910996952
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_17: 889175059
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_18: 908717020
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_19: 251818486
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_2: -962638038
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_20: 2104051855
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_21: -1964912176
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_22: -1672888290
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_23: -1443498888
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_24: 1883948121
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_25: 732304307
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_26: -58087499
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_27: -1191332547
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_28: -312885159
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_29: 624279540
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_3: -306364032
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_30: -2145944316
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_31: 894731861
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_32: 1374964106
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_33: -1396821767
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_34: 1224280980
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_35: -626548914
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_36: 171317842
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_37: 639068230
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_38: 1567299034
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_39: 1797115859
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_4: 56282237
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_40: -1214808763
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_41: 2081144830
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_42: 319221271
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_43: -1314703448
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_44: 680862048
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_45: 1130738640
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_46: 1588107913
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_47: 2076459063
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_48: -689717841
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_49: 513601107
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_5: 2048600579
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_50: 1168312781
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_51: -119841826
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_52: -1611110254
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_53: 1313931452
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_54: 776164641
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_55: 1675734867
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_56: 1069998643
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_57: -1397856003
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_58: 1206520036
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_59: -1044157414
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_6: 604320998
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_60: -949961153
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_61: 527056336
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_62: -649417637
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_63: -1437999671
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_64: -1663091714
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_65: -1306128775
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_66: 1029315546
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_67: -1282122951
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_7: -1366581761
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_8: -685874316
+      JElnXucORpb_Adventurer-Sprite-Sheet-v1.1_9: -1329291586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
