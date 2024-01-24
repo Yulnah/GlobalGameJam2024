@@ -2612,12 +2612,12 @@ PrefabInstance:
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: acceleration
-      value: 20
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: spawnInterval
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
@@ -4146,7 +4146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1642214178
 Transform:
   m_ObjectHideFlags: 0
@@ -4172,7 +4172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c7bcfc02cb71d7b4a8239fda9805ac7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51efe58a8481623468ec23dc0d582316, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -5718,12 +5718,12 @@ PrefabInstance:
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: acceleration
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: spawnInterval
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
