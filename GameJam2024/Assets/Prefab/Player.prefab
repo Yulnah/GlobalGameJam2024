@@ -110,9 +110,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.097717285, y: 0.7752075}
+  m_Offset: {x: 0.008972168, y: 0.7752075}
   serializedVersion: 2
-  m_Radius: 28.001587
+  m_Radius: 39.41992
 --- !u!50 &4384483665709796068
 Rigidbody2D:
   serializedVersion: 4
@@ -154,3 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerNum: 1
   gameManager: {fileID: 0}
+  MissedAudio: {fileID: 0}
+  HitAudio: {fileID: 0}
+  WrongAudio: {fileID: 0}
