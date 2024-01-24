@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
+using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,10 +26,17 @@ public class GameManager : MonoBehaviour
     public static int healthJ1;
     public static int healthJ2;
 
+    //SliderHealthBar healthbar;
+    public Slider sliderJ1;
+    public Slider sliderJ2;
+    public static int sliderBarJ1;
+    public static int sliderBarJ2;
+
 
     // Start is called before the first frame update
     void Start()
     {
+
         // Disable the game over canvas at the beginning
         if (gameOverCanvas != null)
         {
@@ -47,6 +56,14 @@ public class GameManager : MonoBehaviour
         healthJ1 = 3;
         healthJ2 = 3;
 
+        sliderBarJ1 = 3;
+        sliderBarJ2 = 3;
+
+        sliderJ1.maxValue = 3;
+        sliderJ1.value = 3;
+        sliderJ2.maxValue = 3;
+        sliderJ2.value = 3;
+
         heartJ1_0.gameObject.SetActive(true);
         heartJ1_1.gameObject.SetActive(true);
         heartJ1_2.gameObject.SetActive(true);
@@ -59,6 +76,37 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        switch (sliderBarJ1)
+        {
+            case 3:
+                sliderJ1.value = 3;
+                break;
+            case 2:
+                sliderJ1.value = 2;
+                break;
+            case 1:
+                sliderJ1.value = 1;
+                break;
+            case 0:
+                sliderJ1.value = 0;
+                break;
+        }
+
+        switch (sliderBarJ2)
+        {
+            case 3:
+                sliderJ2.value = 3;
+                break;
+            case 2:
+                sliderJ2.value = 2;
+                break;
+            case 1:
+                sliderJ2.value = 1;
+                break;
+            case 0:
+                sliderJ2.value = 0;
+                break;
+        }
 
         switch (healthJ1)
         {
@@ -110,10 +158,12 @@ public class GameManager : MonoBehaviour
 
         }
 
-        if (healthJ1 == 0 || healthJ2 == 0)
+       
+
+        if (healthJ1 == 0 && healthJ2 == 0)
         {
-            //GameOver();
-            //StopSpawning(); // Stop the spawner when the game is over
+            GameOver();
+            StopSpawning(); // Stop the spawner when the game is over
         }
 
     }
@@ -138,6 +188,8 @@ public class GameManager : MonoBehaviour
             gameSpawner.StopSpawning();
         }
     }
+
+   
 
     public void UpdateScore(int scoreToAdd, string player)
     {
