@@ -49,7 +49,7 @@ public class NoteSpawner : MonoBehaviour
         // Randomly select a combo prefab
         GameObject selectedCombo = comboPrefabs[Random.Range(0, comboPrefabs.Length)];
 
-        // Get the gameObject and create it at the position of this spawner
+        // Get the gameObject, create it at the position of spawner
         GameObject newNote = Instantiate(selectedCombo, transform.position, Quaternion.identity);
 
         // Store the original position
@@ -61,7 +61,8 @@ public class NoteSpawner : MonoBehaviour
         // Restore the original position
         newNote.transform.position = originalPosition;
 
-        //Debug.Log("Spawning " + selectedCombo);
+
+        Debug.Log("Spawning " + selectedCombo + " at " + Time.time);
     }
 
     public void StopSpawning()

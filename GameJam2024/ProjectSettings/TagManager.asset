@@ -9,6 +9,7 @@ TagManager:
   - DeadZone
   - DetectZone1
   - DetectZone2
+  - DetectScale
   layers:
   - Default
   - TransparentFX
