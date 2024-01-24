@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a33ea26b3b2224d8a4997d2f869474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BaseQTEspeed: 420
+  BaseQTEspeed: 350
   QTE_letter: A
   gameManager: {fileID: 0}
-  acceleration: 10

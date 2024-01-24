@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public NoteSpawner spawnerJ1;
     public NoteSpawner spawnerJ2;
 
+    public GameObject LossPanel1;
+    public GameObject LossPanel2;
+
     // SCORE
     public TextMeshProUGUI J1_scoreText;
     private int J1_score;
@@ -48,6 +51,14 @@ public class GameManager : MonoBehaviour
             gameOverCanvas.SetActive(false);
         }
 
+        if (LossPanel1 != null)
+        {
+            LossPanel1 .SetActive(false);
+        }
+        if (LossPanel2 != null)
+        {
+            LossPanel2.SetActive(false);
+        }
 
         // SCORE MANAGER J1
         J1_score = 0;
@@ -183,12 +194,14 @@ public class GameManager : MonoBehaviour
         {
             playerJ1.enabled = false;
             spawnerJ1.StopSpawning();
+            LossPanel1.SetActive(true);
         }
 
         if (healthJ2 == 0)
         {
             playerJ2.enabled = false;
             spawnerJ2.StopSpawning();
+            LossPanel2.SetActive(true);
         }
 
 
