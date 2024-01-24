@@ -1477,7 +1477,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &777658859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,12 +2387,12 @@ PrefabInstance:
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: acceleration
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: spawnInterval
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
@@ -2846,6 +2846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229162771}
   - component: {fileID: 1229162770}
+  - component: {fileID: 1229162772}
   m_Layer: 0
   m_Name: --Game Manager--
   m_TagString: Untagged
@@ -2899,6 +2900,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1229162772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229162769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6e132cd94b931d4ca02d48058bf4257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 2070802300}
+  isPaused: 0
 --- !u!1 &1229718388
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,6 +3123,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266751464}
   m_CullTransparentMesh: 1
+--- !u!1 &1292202036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292202037}
+  - component: {fileID: 1292202039}
+  - component: {fileID: 1292202038}
+  m_Layer: 0
+  m_Name: EventSystem (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292202037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292202036}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -939.20514, y: -606.18774, z: 8.622723}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1626066786}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1292202038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292202036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1292202039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292202036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 1542378418}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &1321921501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,7 +3716,7 @@ GameObject:
   - component: {fileID: 1542378421}
   - component: {fileID: 1542378420}
   m_Layer: 5
-  m_Name: Retry Button
+  m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3691,7 +3774,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 21300000, guid: 02c40dead1f346d43a79c026c684a3ce,
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: b0637e656dca7064186f5cfcbbd3acd5, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 77a24853a9b116c45988598ac266ed49, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 02c40dead1f346d43a79c026c684a3ce, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3703,7 +3786,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1542378421}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1229162772}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1542378421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3995,6 +4090,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 392470442}
+  - {fileID: 1292202037}
   - {fileID: 410087041}
   - {fileID: 832575519}
   m_Father: {fileID: 0}
@@ -4785,7 +4881,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1867841553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1229162772}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: GoToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1867841553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5197,7 +5305,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2019171879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1229162772}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2019171879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5672,12 +5792,12 @@ PrefabInstance:
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: acceleration
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: spawnInterval
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
