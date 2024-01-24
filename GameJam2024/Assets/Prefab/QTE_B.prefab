@@ -152,5 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a33ea26b3b2224d8a4997d2f869474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QTEspeed: 300
+  QTEspeed: 420
   QTE_letter: B
+  gameManager: {fileID: 0}

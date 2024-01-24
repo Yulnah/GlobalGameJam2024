@@ -28,6 +28,53 @@ public class NoteSpawner : MonoBehaviour
 
     private IEnumerator SpawnNoteRoutine(float spawnInterval)
     {
+        // Spawn the first note immediately
+        SpawnNote();
+
+        while (isSpawning)
+        {
+            // Wait for the specified interval before spawning the next note
+            yield return new WaitForSeconds(spawnInterval);
+
+            if (!gameManager.isGameOver)
+            {
+                // Spawn the next note
+                SpawnNote();
+            }
+        }
+    }
+
+    private void SpawnNote()
+    {
+        // Randomly select a combo prefab
+        GameObject selectedCombo = comboPrefabs[Random.Range(0, comboPrefabs.Length)];
+
+        // Get the gameObject and create it at the position of this spawner
+        GameObject newNote = Instantiate(selectedCombo, transform.position, Quaternion.identity);
+
+        // Store the original position
+        Vector3 originalPosition = newNote.transform.position;
+
+        // Set the new note as a child of the spawner's transform
+        newNote.transform.SetParent(transform, false);
+
+        // Restore the original position
+        newNote.transform.position = originalPosition;
+
+        //Debug.Log("Spawning " + selectedCombo);
+    }
+
+    public void StopSpawning()
+    {
+        isSpawning = false;
+    }
+
+}
+
+/*
+ 
+ private IEnumerator SpawnNoteRoutine(float spawnInterval)
+    {
         while (isSpawning)
         {
             yield return new WaitForSeconds(spawnInterval);
@@ -52,67 +99,4 @@ public class NoteSpawner : MonoBehaviour
         }
     }
 
-    public void StopSpawning()
-    {
-        isSpawning = false;
-    }
-
-    //private IEnumerator SpawnNoteRoutine(float spawnInterval)
-    //{
-    //    while (true)
-    //    {
-    //        yield return new WaitForSeconds(spawnInterval);
-
-    //        // Randomly select a combo prefab
-    //        GameObject selectedCombo = comboPrefabs[Random.Range(0, comboPrefabs.Length)];
-
-    //        // Get the gameObject and create it at the position of this spawner
-    //        GameObject newNote = Instantiate(selectedCombo, transform.position, Quaternion.identity);
-
-    //        // Store the original position
-    //        Vector3 originalPosition = newNote.transform.position;
-
-    //        // Set the new note as a child of the spawner's transform
-    //        newNote.transform.SetParent(transform, false);
-
-    //        // Restore the original position
-    //        newNote.transform.position = originalPosition;
-    //    }
-    //}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //private IEnumerator SpawnNoteRoutine(float spawnInterval, GameObject notePrefab)
-    //{
-    //    while (true)
-    //    {
-    //        yield return new WaitForSeconds(spawnInterval);
-
-    //        // Get the gameObject and create it at the position of this spawner
-    //        GameObject newNote = Instantiate(notePrefab, transform.position, Quaternion.identity);
-
-    //        // Store the original position
-    //        Vector3 originalPosition = newNote.transform.position;
-
-    //        // Set the new note as a child of the spawner's transform
-    //        newNote.transform.SetParent(transform, false);
-
-    //        // Restore the original position
-    //        newNote.transform.position = originalPosition;
-    //    }
-    //}
+ */

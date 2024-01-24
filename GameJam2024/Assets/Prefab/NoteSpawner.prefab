@@ -50,8 +50,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   comboPrefabs:
-  - {fileID: 7165040790285431246, guid: 770baff18fc99a246b07a112bf4c92f8, type: 3}
-  spawnInterval: 1
+  - {fileID: 7165040790285431246, guid: ffacac25ec99b1c4e9abcce6689ea8dc, type: 3}
+  - {fileID: 7165040790285431246, guid: 7f0f38eb38c20c047abd812d85cd463f, type: 3}
+  - {fileID: 7165040790285431246, guid: f98f7163e04c28242a71c0ad6fe6e7b8, type: 3}
+  - {fileID: 7165040790285431246, guid: 039dabde839b53b46bd18e945d1cdd12, type: 3}
+  - {fileID: 7165040790285431246, guid: eecc7281d6abe9b428b2e292ecc7472d, type: 3}
+  spawnInterval: 3
+  gameManager: {fileID: 0}
 --- !u!50 &7534578756827071840
 Rigidbody2D:
   serializedVersion: 4

@@ -2347,7 +2347,7 @@ PrefabInstance:
     - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: spawnInterval
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
@@ -2453,6 +2453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NoteSpawner P2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437623386338922361, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4040,7 +4045,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1024, y: -504}
+  m_AnchoredPosition: {x: -1024, y: -554}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1718588896
@@ -4203,7 +4208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 559, y: -504}
+  m_AnchoredPosition: {x: 559, y: -554}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1751689166
@@ -5235,16 +5240,6 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1229162770}
-    - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
-        type: 3}
-      propertyPath: spawnInterval
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1087244568981546224, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
-        type: 3}
-      propertyPath: comboPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1863212177797007411, guid: 6f60fd802cce3fe4088ddf8c05c497a4,
         type: 3}
       propertyPath: m_Pivot.x
