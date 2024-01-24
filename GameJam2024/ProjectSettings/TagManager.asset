@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - QTE_Player
+  - QTE_Game
+  - DeadZone
+  - DetectZone1
+  - DetectZone2
+  - DetectScale
+  - Spawner1
+  - Spawner2
   layers:
   - Default
   - TransparentFX
