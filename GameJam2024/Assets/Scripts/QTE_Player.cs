@@ -18,11 +18,18 @@ public class QTE_Player : MonoBehaviour
 
     // VFX
     public GameObject vfxHit;
-    public GameObject vfxSuccess;  
+    public GameObject vfxSuccess; 
+
+    // Animation
+    public Animator _Joueur_1;
+    // Animation triggers
+    private string[] animationTriggers = { "ClaqueDoigts", "Sarbacane", "Nourriture", "Boulette", "Danse" };
+
 
     void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
+        //_Joueur_1 = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,6 +37,7 @@ public class QTE_Player : MonoBehaviour
     {
 
 
+       
 
         // PLAYER INPUT VERIFY
         //CheckButtonInput();
@@ -64,7 +72,9 @@ public class QTE_Player : MonoBehaviour
                     Invoke("VFXhitHideSuccess", 0.2f);
                     Destroy(collidedObject); // Destroy the object with the QTE_Game tag*
 
-
+                    //_Joueur_1.ResetTrigger("Danse");
+                    //_Joueur_1.SetTrigger("Danse");
+                    InvokeRepeating("PlayRandomAnimation", 3f, 3f);
 
                     gameManager.UpdateScore(5, "J" + PlayerNum); // Gain score
 
@@ -86,7 +96,28 @@ public class QTE_Player : MonoBehaviour
 
     }
 
-    void VFXhitShow()
+    void PlayRandomAnimation()
+    {
+        // Select a random animation trigger from the array
+        string randomTrigger = GetRandomTrigger();
+
+        // Play the selected animation trigger
+        _Joueur_1.SetTrigger(randomTrigger);
+
+        Debug.Log("Playing animation: " + randomTrigger);
+    }
+
+    string GetRandomTrigger()
+    {
+        // Get a random index from the array
+        int randomIndex = Random.Range(0, animationTriggers.Length);
+
+        // Return the animation trigger at the random index
+        return animationTriggers[randomIndex];
+    }
+
+
+void VFXhitShow()
     {
         vfxHit.SetActive(true);
     }

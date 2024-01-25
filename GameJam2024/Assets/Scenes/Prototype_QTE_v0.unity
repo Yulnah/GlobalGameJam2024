@@ -6950,6 +6950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8419217502158964725, guid: aa3bab09e9393ac4597cab927d4f0adc,
         type: 3}
+      propertyPath: _Joueur_1
+      value: 
+      objectReference: {fileID: 1835078880}
+    - target: {fileID: 8419217502158964725, guid: aa3bab09e9393ac4597cab927d4f0adc,
+        type: 3}
       propertyPath: heartJ1_0
       value: 
       objectReference: {fileID: 1576392896}
@@ -23476,6 +23481,11 @@ PrefabInstance:
       propertyPath: HitAudio
       value: 
       objectReference: {fileID: 1067681473}
+    - target: {fileID: 8419217502158964725, guid: aa3bab09e9393ac4597cab927d4f0adc,
+        type: 3}
+      propertyPath: _Joueur_1
+      value: 
+      objectReference: {fileID: 409935219}
     - target: {fileID: 8419217502158964725, guid: aa3bab09e9393ac4597cab927d4f0adc,
         type: 3}
       propertyPath: heartJ1_0
