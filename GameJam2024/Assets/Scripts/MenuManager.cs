@@ -28,6 +28,11 @@ public class MenuManager : MonoBehaviour
     public void StarGame()
     {
         SceneManager.LoadScene("Prototype_QTE_v0");
+    }    
+    
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu_Principale");
     }
 
 }

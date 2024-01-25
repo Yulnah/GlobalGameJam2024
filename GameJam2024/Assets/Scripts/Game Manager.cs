@@ -239,12 +239,13 @@ public class GameManager : MonoBehaviour
                 WinnerPlayer.text = "Player 2 !";
                 WinnerScore.text = "Score: " + J2_score;
 
-                LoserPlayer.text = "Player 1 with " + J1_score;
+                LoserPlayer.text = "Player 1 loses with " + J1_score;
             }
             else 
             {
                 WinnerPlayer.text = "Both players !";
                 WinnerScore.text = "Score: " + J1_score;
+                LoserPlayer.gameObject.SetActive(false);
             }
 
             
