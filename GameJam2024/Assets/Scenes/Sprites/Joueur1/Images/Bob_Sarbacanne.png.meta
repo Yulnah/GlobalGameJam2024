@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49cbc7b994721c5458b5eb2918e7bf9c
+guid: 80e2513acfdcb8747aeace1a59242c89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bob_Cuisine_0
+      name: Bob_Sarbacanne_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee3fcc2e8e7a30439ce8718bbf48f97
-      internalID: -984494317
+      spriteID: cdb4b702682a3cd488f9e53897948fea
+      internalID: -110048677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob_Cuisine_1
+      name: Bob_Sarbacanne_1
       rect:
         serializedVersion: 2
         x: 1194
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a2554e7d89ab4449539a16750ce90d
-      internalID: -871228624
+      spriteID: 69f33c9f30d8c0c43abb400979497c7d
+      internalID: 1794072709
       vertices: []
       indices: 
       edges: []
@@ -154,7 +154,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3e7e398daadf15346ab7eed92fcbd2db
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bob_Cuisine_0: -984494317
-      Bob_Cuisine_1: -871228624
+      Bob_Sarbacanne_0: -110048677
+      Bob_Sarbacanne_1: 1794072709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
