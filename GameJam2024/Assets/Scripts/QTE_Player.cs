@@ -17,8 +17,8 @@ public class QTE_Player : MonoBehaviour
     public AudioSource WrongAudio;
 
     // VFX
-    //public ParticleSystem successVFXPrefab;
-    //public Canvas overlayCanvas;
+    public GameObject vfxHit;
+    public GameObject vfxSuccess;  
 
     void Start()
     {
@@ -60,15 +60,11 @@ public class QTE_Player : MonoBehaviour
                 if (qteLetter == PlayerInput)
                 {
                     HitAudio.Play();
+                    VFXhitShowSuccess();
+                    Invoke("VFXhitHideSuccess", 0.2f);
                     Destroy(collidedObject); // Destroy the object with the QTE_Game tag*
 
-                    //// Instantiate the success VFX on the overlay canvas
-                    //if (successVFXPrefab != null && overlayCanvas != null)
-                    //{
-                    //    GameObject vfxInstance = Instantiate(successVFXPrefab, overlayCanvas.transform);
-                    //    RectTransform vfxTransform = vfxInstance.GetComponent<RectTransform>();
-                    //    vfxTransform.position = Camera.main.WorldToScreenPoint(collidedObject.transform.position);
-                    //}
+
 
                     gameManager.UpdateScore(5, "J" + PlayerNum); // Gain score
 
@@ -89,6 +85,25 @@ public class QTE_Player : MonoBehaviour
         }
 
     }
+
+    void VFXhitShow()
+    {
+        vfxHit.SetActive(true);
+    }
+    void VFXhitHide()
+    {
+        vfxHit.SetActive(false);
+    }
+
+    void VFXhitShowSuccess()
+    {
+        vfxSuccess.SetActive(true);
+    }
+    void VFXhitHideSuccess()
+    {
+        vfxSuccess.SetActive(false);
+    }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -138,6 +153,8 @@ public class QTE_Player : MonoBehaviour
             (Input.GetButtonDown("QTE_Y_P" + PlayerNum)))
         {
             MissedAudio.Play();
+            VFXhitShow();
+            Invoke("VFXhitHide", 0.2f);
         }
     }
 
