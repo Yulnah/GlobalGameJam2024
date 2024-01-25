@@ -245,6 +245,7 @@ public class GameManager : MonoBehaviour
             {
                 WinnerPlayer.text = "Both players !";
                 WinnerScore.text = "Score: " + J1_score;
+                LoserPlayer.gameObject.SetActive(false);
             }
 
             
