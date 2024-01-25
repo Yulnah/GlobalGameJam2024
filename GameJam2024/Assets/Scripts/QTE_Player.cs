@@ -16,6 +16,10 @@ public class QTE_Player : MonoBehaviour
     public AudioSource HitAudio;
     public AudioSource WrongAudio;
 
+    // VFX
+    //public ParticleSystem successVFXPrefab;
+    //public Canvas overlayCanvas;
+
     void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
@@ -57,7 +61,15 @@ public class QTE_Player : MonoBehaviour
                 {
                     HitAudio.Play();
                     Destroy(collidedObject); // Destroy the object with the QTE_Game tag*
-                    
+
+                    //// Instantiate the success VFX on the overlay canvas
+                    //if (successVFXPrefab != null && overlayCanvas != null)
+                    //{
+                    //    GameObject vfxInstance = Instantiate(successVFXPrefab, overlayCanvas.transform);
+                    //    RectTransform vfxTransform = vfxInstance.GetComponent<RectTransform>();
+                    //    vfxTransform.position = Camera.main.WorldToScreenPoint(collidedObject.transform.position);
+                    //}
+
                     gameManager.UpdateScore(5, "J" + PlayerNum); // Gain score
 
                     Debug.Log("The right input has been made: deleting QTE_Game object");
