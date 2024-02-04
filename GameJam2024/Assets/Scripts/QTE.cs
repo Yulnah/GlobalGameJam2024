@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +15,10 @@ public class QTE : MonoBehaviour
     private Vector3 targetScale = new Vector3(2f, 2f, 2f);
     private float scaleSpeed = 0.5f; // Adjust this value to control the scaling speed
 
+    // Animation
+    public Animator AnimationProf;
+    // Animation triggers
+    private string[] animationTriggersTeach = { "Engueule_J1", "Engueule_J2" };
 
 
     // Start is called before the first frame update
@@ -35,6 +39,9 @@ public class QTE : MonoBehaviour
         {
             GameManager.sliderBarJ1 -= 1;
 
+            // Play the selected animation trigger
+            AnimationProf.SetTrigger("Engueule_J1");
+
             if (GameManager.sliderBarJ1 == 0)
             {
                 GameManager.healthJ1 -= 1;
@@ -48,6 +55,9 @@ public class QTE : MonoBehaviour
         if (collision.gameObject.tag == "DetectZone2") // tag note
         {
             GameManager.sliderBarJ2 -= 1;
+
+            // Play the selected animation trigger
+            AnimationProf.SetTrigger("Engueule_J2");
 
             if (GameManager.sliderBarJ2 == 0)
             {
