@@ -16,15 +16,16 @@ public class QTE : MonoBehaviour
     private float scaleSpeed = 0.5f; // Adjust this value to control the scaling speed
 
     // Animation
-    public Animator AnimationProf;
+    public Animator AC_Professeur;
     // Animation triggers
-    private string[] animationTriggersTeach = { "Engueule_J1", "Engueule_J2" };
+    private string[] animationTriggersTeach = { "Engueule_Jouer1", "Engueule_Jouer2" };
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        AC_Professeur = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -39,13 +40,16 @@ public class QTE : MonoBehaviour
         {
             GameManager.sliderBarJ1 -= 1;
 
-            // Play the selected animation trigger
-            AnimationProf.SetTrigger("Engueule_J1");
+            
 
             if (GameManager.sliderBarJ1 == 0)
             {
+
                 GameManager.healthJ1 -= 1;
                 GameManager.sliderBarJ1 = 3;
+
+                // Play the selected animation trigger
+                AC_Professeur.SetTrigger("Engueule_Jouer1");
                 //Debug.Log("Detected Zone 1 true !");
             }
             
@@ -56,13 +60,15 @@ public class QTE : MonoBehaviour
         {
             GameManager.sliderBarJ2 -= 1;
 
-            // Play the selected animation trigger
-            AnimationProf.SetTrigger("Engueule_J2");
+            
 
             if (GameManager.sliderBarJ2 == 0)
             {
                 GameManager.healthJ2 -= 1;
                 GameManager.sliderBarJ2 = 3;
+
+                // Play the selected animation trigger
+                AC_Professeur.SetTrigger("Engueule_Jouer2");
                 //Debug.Log("Detected Zone 2 true !");
             }
         }
